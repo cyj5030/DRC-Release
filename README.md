@@ -3,14 +3,18 @@
 ### Citations
 
 If you are using the code/model/data provided here in a publication, please consider citing our paper:  
-  
+
+```
 @article{cao2020learning,  
     author = {Cao, Yi-Jun and Lin, Chuan and Li, Yong-Jie},  
     year = {2020},  
     title = {Learning Crisp Boundaries Using Deep Refinement Network and Adaptive Weighting Loss},  
     journal = {IEEE Transactions on Multimedia},  
     doi = {10.1109/TMM.2020.2987685}  
-    }  
+} 
+
+```
+ 
 
 ### Precomputed results
 
