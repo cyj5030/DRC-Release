@@ -1,0 +1,27 @@
+backbone: vgg # vgg resnet50 resnet101 resnext50
+dataset: BSDS # BSDS BSDS-VOC NYUD-image NYUD-hha MultiCue-Edge MultiCue-Contour
+loss: AF  # CE Dice AF DF
+a: 1
+b: 1
+c: 0.1
+
+
+dataset_path:
+  # your path
+  BSDS: /home/cyj/dataset/edge/HED-BSDS
+  BSDS-VOC: /home/cyj/dataset/edge
+  NYUD-V2: /home/cyj/dataset/edge/NYUD
+
+device: cuda:0
+#
+batch_size: 1
+acc_grad: 10
+max_epoch: 8
+decay_rate: 0.1
+decay_steps: 2
+
+# optimization Adam or SGD
+method: SGD
+lr: 1.0e-3
+momentum: 0.9
+weight_decay: 2.0e-4
