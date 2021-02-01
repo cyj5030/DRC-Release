@@ -6,11 +6,14 @@ If you are using the code/model/data provided here in a publication, please cons
 
 ```
 @article{cao2020learning,  
-    author = {Cao, Yi-Jun and Lin, Chuan and Li, Yong-Jie},  
-    year = {2020},  
-    title = {Learning Crisp Boundaries Using Deep Refinement Network and Adaptive Weighting Loss},  
-    journal = {IEEE Transactions on Multimedia},  
-    doi = {10.1109/TMM.2020.2987685}  
+    author={Y. -J. {Cao} and C. {Lin} and Y. -J. {Li}},
+    journal={IEEE Transactions on Multimedia}, 
+    title={Learning Crisp Boundaries Using Deep Refinement Network and Adaptive Weighting Loss}, 
+    year={2021},
+    volume={23},
+    number={},
+    pages={761-771},
+    doi={10.1109/TMM.2020.2987685}
 } 
 
 ```
